@@ -1,0 +1,62 @@
+body {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 5px;
+    margin: 25px;
+    background: rgb(255, 241, 159);
+}
+
+h1 {
+    font-size: 20px;
+    letter-spacing: 1px;
+    max-width: 770px;
+    width: 100%;
+    position: relative;
+    display: inline-block;
+    color: #000000;
+}
+
+.d1 h1 {
+    text-align: left;
+    padding: 0 0 6px 10px;
+    border-left: 10px solid #A6D8CB;
+    border-bottom: 2px solid #A6D8CB;
+}
+
+.cross {
+    cursor: pointer;
+}
+
+.letter {
+    color: rgb(183, 0, 255);
+    font-size: 500%;
+    font-family: serif;
+    position: relative;
+    top: 7px;
+}
+
+#enter .label {
+    width: 80px;
+    float: left;
+    text-align: left;
+}
+
+#enter .form-text {
+    width: 240px;
+    margin-left: 10px;
+    border: 1px solid #839699;
+    padding: 2px;
+}
+
+#enter .form-item {
+    margin-bottom: 5px;
+}
+
+#enter .form-text:focus {
+    background: white;
+    border: 2px solid #ff5e00;
+}
+
+ ::-moz-selection {
+    color: rgb(255, 255, 255);
+    background: rgb(183, 0, 255);
+}
